@@ -1,0 +1,18 @@
+{
+    "name": "dan/namespaces",
+    "authors": [
+        {
+            "name": "Denys Kurasov",
+            "email": "dionisiy13@gmail.com"
+        }
+    ],
+    "require": {
+        "lstrojny/functional-php": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "name_space_prefix": "folder"
+        },
+        "files": ["includes/General/functions.php"]
+    }
+}
