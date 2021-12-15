@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 
+$tess = new \App\Quntex\myTest();
 
 // use default array_map
 $result = assert(array_map(fn($item) => $item * 2, [1,2,3]) === [2,4,6]);

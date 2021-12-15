@@ -11,8 +11,9 @@
     },
     "autoload": {
         "psr-4": {
-            "name_space_prefix": "folder"
+            "App\\Quntex\\": "includes/test/",
+            "Quantox\\Intership\\Own\\" : "includes/MyFolder"
         },
-        "files": ["includes/General/functions.php"]
+        "files": ["includes/General/functions.php", "includes/MyFolderWalk/array_walk.php"]
     }
 }
