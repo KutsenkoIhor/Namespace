@@ -3,5 +3,5 @@
 namespace App\My\Custom\Name\Space;
 
 function array_map(callable $function, array $array) {
-	return "I am not default array_map";
+	echo "I AM CUSTOM array_map FUNCTION";
 }
