@@ -17,3 +17,5 @@ See index.php and composer.json.
 After each manipulation with files do the command
 ```composer dump-autload```
 
+**!!!All files should be inside includes directory!!!**
+
